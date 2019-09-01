@@ -1,3 +1,0 @@
-function nextImg(){
-	var 
-}
