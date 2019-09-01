@@ -1,0 +1,153 @@
+.footer {
+  background-color: rgb(21, 28, 39);
+  height: 462px;
+  width: 100vw;
+}
+
+.footer .wrapper {
+  padding-top: 40px;
+}
+
+.contact {
+  display: flex;
+}
+
+.footer .works__description {
+  margin: 45px 0 27px 0;
+  color: #2c3b52;
+  font-size: 14px;
+}
+
+.email-content {
+  width: 55%;
+}
+
+.email-btn {
+  padding: 0 35px;
+  width: 100%;
+  height: 75px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  background-color: #080c11;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.email-btn::after {
+  content: "";
+  width: 28px;
+  height: 20px;
+  background: url("../img/email.png") center no-repeat / contain;
+}
+
+.email-txt {
+  width: 100%;
+  text-align: left;
+  font: 18px / normal "Sintony";
+  line-height: 1.39;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.social-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 45%;
+  margin-right: 12px;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-between;
+  width: calc(60px * 4 + 20px * 2);
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 57px;
+}
+
+.rss {
+  background-color: #ffaa16;
+  box-shadow: inset 0px -3px 0 0 #d38600;
+}
+
+.ball {
+  box-shadow: inset 0px -3px 0 0 #d30054;
+  background-color: #ec5b95;
+}
+
+.twitter {
+  box-shadow: inset 0px -3px 0 0 #0081b1;
+  background-color: #00aeef;
+}
+
+.fb {
+  box-shadow: inset 0px -3px 0 0 #003a72;
+  background-color: #0054a6;
+}
+
+#fb {
+  width: 14px;
+  height: 26px;
+  background: url("../img/face.png") center no-repeat/contain;
+}
+
+#ball {
+  width: 29px;
+  height: 29px;
+  background: url("../img/ball.png") center no-repeat/contain;
+}
+
+#twitter {
+  width: 33px;
+  height: 24px;
+  background: url("../img/bird.png") center no-repeat/contain;
+}
+
+#rss {
+  width: 22px;
+  height: 22px;
+  background: url("../img/wifi.png") center no-repeat/contain;
+}
+
+.down-info {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 20%;
+  color: #fff;
+  font: 14px / normal "Sintony";
+}
+
+@media all and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .email-content {
+    width: 100%;
+  }
+
+  .works__description {
+    max-width: 100%;
+  }
+
+  .social-wrapper {
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+
+  .down-info {
+    margin-top: 15%;
+  }
+}

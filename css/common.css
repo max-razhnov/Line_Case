@@ -1,0 +1,32 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Sintony";
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  max-width: 995px;
+  margin: 0 auto;
+  min-width: 290px;
+}
+
+.inner-wrapper {
+  margin: 0 6px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .wrapper {
+    max-width: 90%;
+  }
+}
