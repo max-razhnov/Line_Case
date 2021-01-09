@@ -35,7 +35,10 @@ body {
 
 .header {
     position: relative;
-    background: url(../img/Shape.png) center no-repeat/cover;
+    background-image: url(../img/Shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 645px;
     width: 100vw;
 }
@@ -51,7 +54,10 @@ body {
     z-index: 100;
     width: 448px;
     height: 652px;
-    background: url(../img/bio.png) center no-repeat/contain;
+    background-image: url(../img/bio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
 }
 
@@ -62,7 +68,10 @@ body {
 
 .logo::before {
     content: "";
-    background: url(../img/Rectangle.png) center no-repeat/contain;
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 47px;
     height: 4px;
     display: inline-block;
