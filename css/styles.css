@@ -35,7 +35,7 @@ body {
 
 .header {
     position: relative;
-    background-image: url(../img/Shape.jpg) center no-repeat / cover;
+    background: url(../img/Shape.png) center no-repeat/cover;
     height: 645px;
     width: 100vw;
 }
@@ -51,7 +51,7 @@ body {
     z-index: 100;
     width: 448px;
     height: 652px;
-    background-image: url(../img/bio.jpg) center no-repeat / contain;
+    background: url(../img/bio.png) center no-repeat/contain;
 
 }
 
@@ -62,7 +62,7 @@ body {
 
 .logo::before {
     content: "";
-    background: url(../img/Rectangle.jpg) center no-repeat / contain;
+    background: url(../img/Rectangle.png) center no-repeat/contain;
     width: 47px;
     height: 4px;
     display: inline-block;
@@ -280,7 +280,7 @@ body {
     content: "";
     width: 28px;
     height: 20px;
-    background: url(../img/email.png) center no-repeat / contain;
+    background: url(../img/email.png) center no-repeat/contain;
 }
 
 .email-txt {
