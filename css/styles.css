@@ -58,7 +58,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
 }
 
 .links {
@@ -289,7 +288,10 @@ body {
     content: "";
     width: 28px;
     height: 20px;
-    background: url(../img/email.png) center no-repeat/contain;
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .email-txt {
@@ -345,25 +347,37 @@ body {
 #fb {
     width: 14px;
     height: 26px;
-    background: url(../img/face.png) center no-repeat/contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/face.png);
 }
 
 #ball {
     width: 29px;
     height: 29px;
-    background: url(../img/ball.png) center no-repeat/contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/ball.png);
 }
 
 #twitter {
     width: 33px;
     height: 24px;
-    background: url(../img/bird.png) center no-repeat/contain;
+    background-image: url(../img/bird.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 #rss {
     width: 22px;
     height: 22px;
-    background: url(../img/wifi.png) center no-repeat/contain;
+    background-image: url(../img/wifi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .down-info {
